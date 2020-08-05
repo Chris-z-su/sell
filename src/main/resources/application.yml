@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 123456
+    password: xxxxxx
     url: jdbc:mysql://192.168.18.11/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
@@ -12,9 +12,9 @@ server:
   context-path: /sell
 
 wechat:
-  mpAppId: wx99798ab2fc8509ec
-  mpAppSecret: 7f459dbda57fe01662bab35d85c142a0
-  mchId: 1409146202
-  mchKey: c976503d34ca432c601361f969fd8d85
+  mpAppId: xxxx
+  mpAppSecret: xxxx
+  mchId: xxxx
+  mchKey: xxxx
   keyPath: /var/weixin_cert/h5.p12
 
